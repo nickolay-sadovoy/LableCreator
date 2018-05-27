@@ -93,5 +93,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LableCreator.Models\LableCreator.Models.csproj">
+      <Project>{cffad14e-2140-46b6-a100-9534e61f3b0e}</Project>
+      <Name>LableCreator.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LableCreator.Resources\LableCreator.Resources.csproj">
+      <Project>{e6e2629c-4399-4f3e-9ae0-e0e7e4250469}</Project>
+      <Name>LableCreator.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LableCreator.ViewModels\LableCreator.ViewModels.csproj">
+      <Project>{e67e51ba-fbec-41ed-898c-7f050dd854a8}</Project>
+      <Name>LableCreator.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
